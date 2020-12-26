@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
+	background-image: url(assets/stonks.jpg);
+	background-size: 100% 100%;
+	color: white;
+  	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+h1 {
+	font-size:50px;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.sticky + main {
+	padding-top: 48px;
+}
+main {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.reviews h2 {
+	text-align: center;
+}
+.socks {
+	display: table-cell;
+	width: auto;
+	height: 200px;
+	max-width: 200px;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+tr {
+	line-height: 300px;
+}
+.container {
+	border: 2px solid #ccc;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 16px;
+	margin: 16px 0
+}
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.container img {
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+.container span {
+	font-size: 20px;
+	margin-right: 15px;
+}
+@media (max-width: 500px) {
+	.container {
+		text-align: center;
+	}
+	.container img {
+		margin: auto;
+		float: none;
+		display: block;
+	}
+}
+.message {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	max-width: 500px;
+	min-resolution: 200px;
+	float: left;
+}
+input, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #535453;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+button {
+	background-color: dimgrey;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: black;
+}
+
+.parent {
+	display: flex;
+}
+.map {
+	text-align: right;
+	float: right;
+	flex:1;
+}
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	width: 100%;
+	height:100%;
+}
+
+#topButton {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    border: #FF0004;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+	font-weight: bold;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+aside {
+    background-color: #ffffff7c;
+    left: 50;
+    border: 2px solid #b60000;
+}
+
+code * {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+section {
+    margin: 0 20px;
+    padding: 0 16px 16px 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+aside {
+    min-width: min-content;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 20px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="index" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<title>Socks Stonks</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Socks Stonks</h1>
+		<p>These socks make stonks</p>
+	</header>
+	<nav class="navbar" id="navbar">
+		<a href="index.html">Home</a> <a href="history.html">About</a> <a href="contacts.html">Contact</a>
+	</nav>
+	<main>
+		<div class="goods" id="goods">
+			<table width="90%" border="10" cellspacing="10" cellpadding="10" align="center" style="table-layout: fixed" height ="300px">
+				<caption>
+				<h2>Our Socks</h2>
+				</caption>
+				<tbody>
+					<tr>
+						<td><img class="socks" src="assets/s1.jpg" alt=""/></td>
+						<td><img class="socks" src="assets/s2.jpg" alt=""/></td>
+					</tr>
+					<tr>
+						<td><img class="socks" src="assets/s3.jpg" alt=""/></td>
+						<td><img class="socks" src="assets/s4.jpg" alt=""/></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="reviews" id="reviews">
+			<h2><strike>Stocks</strike> Socks Holders</h2>
+			<div class="container"> <img src="assets/r1.jpg" alt="Avatar" style="width:90px">
+				<p><span>John Doe.</span> CEO at Houdini Hoodie.</p>
+				<p>Worthful investment</p>
+			</div>
+			<div class="container"> <img src="assets/r2.jpg" alt="Avatar" style="width:90px">
+				<p><span>Rebecca Flex.</span> CEO at Fitness Feature.</p>
+				<p>Pay once - get two socks! Love it!</p>
+			</div>
+		</div>
+		<div class="parent">
+			<div class="message">
+				<h2>Contact Us</h2>
+				<form>
+					<label for="name">Name</label>
+					<input type="text" id="firstname" name="firstname" placeholder="Your name..">
+					<label for="lastname">Last Name</label>
+					<input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+					<label for="subject">Message</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+			<div class="map">
+				<div class="gmap_canvas">
+					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ITMO%20university&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="height: 100%; width: 100%;"></iframe>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+    	<button onclick="topFunction()" id="topButton">&#8593;</button>
+	</footer>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
